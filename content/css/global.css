@@ -1,5 +1,53 @@
-html, body {
-    margin: 0 auto;
-    padding: 0;
-    background-image: url('/content/media/okbg.png')
+body, html {
+    margin: 0;
+    padding: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
 }
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+    
+    font-weight: bold;
+    text-align: center;
+}
+
+/* TODO: Center text in header. */
+.header {
+    height: 300px;
+    width: 100%;
+    background:  url("../../content/media/images/header.png") center;
+    color: white;
+}
+
+.post { }
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.infosquare {
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* TODO: Fix spaces between two diferent types of "text". */
+.infosquare p {
+    font-size: 14px;
+}
+
+.footer {
+    height: 200px;
+    color: #FFFFFF;
+    background-color: #212121;
+}
+
+/* TODO: Start using media queries. */
