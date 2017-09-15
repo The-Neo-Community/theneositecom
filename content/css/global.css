@@ -4,6 +4,7 @@ body, html {
     font-family: 'Roboto', sans-serif;
     color: white;
     background: #212121;
+    background:  url("/content/media/header.png") center;
 }
 
 .flexbox {
@@ -11,16 +12,23 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-content: stretch;
-    
     font-weight: bold;
     text-align: center;
+
 }
 
 /* TODO: Center text in header. */
+
+.nav {
+    background-color:deeppink;
+    padding: 12px;
+    font-size: 20px;
+}
+
 .header {
     height: 300px;
     width: 100%;
-    background:  url("/content/media/header.png") center;
+    
     color: white;
 }
 
@@ -53,6 +61,8 @@ body, html {
     height: 200px;
     color:white;
     background-color: #212121;
+    font-size: 13px;
+    font-style: light;
 }
 
 /* TODO: Start using media queries. */
