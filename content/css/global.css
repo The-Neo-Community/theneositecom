@@ -2,7 +2,8 @@ body, html {
     margin: 0;
     padding: 0 auto;
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: white;
+    background: #212121;
 }
 
 .flexbox {
@@ -19,17 +20,20 @@ body, html {
 .header {
     height: 300px;
     width: 100%;
-    background:  url("/content/media/images/header.png") center;
+    background:  url("/content/media/header.png") center;
     color: white;
 }
 
-.post { }
+.post { 
+    background-color: #212121;
+}
 
 .info {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: stretch;
+    background-color: #212121;
 }
 
 .infosquare {
@@ -37,6 +41,7 @@ body, html {
     border-radius: 10px;
     margin: 10px;
     padding: 5px;
+    color: white;
 }
 
 /* TODO: Fix spaces between two diferent types of "text". */
@@ -46,7 +51,7 @@ body, html {
 
 .footer {
     height: 200px;
-    color: #FFFFFF;
+    color:white;
     background-color: #212121;
 }
 
